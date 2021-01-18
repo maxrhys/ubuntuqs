@@ -9,6 +9,6 @@ sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/v
 sudo apt update
 
 #INSTALL AND UPDATE SOFTWARE
-sudo apt --yes --force-yes remove firefox gnome-calendar
+sudo apt --yes --force-yes remove firefox gnome-calendar geary gnome-contacts gnome-weather
 sudo apt --yes --force-yes install google-chrome-stable vlc python python3 gnome-boxes gimp putty putty-tools pip code filezilla
 sudo apt upgrade
